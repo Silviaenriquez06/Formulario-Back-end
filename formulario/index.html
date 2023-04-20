@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UICSLP CAMPUS TAMUIN</title>
+<link href="estilos/estilos.css" rel="stylesheet">
+</head>
+<body> 
+    <h1>FORMULARIO DE PREINSCRIPCIÓN</h1>
+    <div id="display-resultado" style="height: 20px;"></div>
+
+</div>
+    <main id="contenido">
+    <form class="form-ficha">
+        <br>
+    <div class="campo">
+        <label class="campo_eti" for="nombre">Nombre del alumno</label> 
+        <input class="campo_text" type="text" placeholder="Nombre completo" id="nombre" size="40">
+    </div>    
+    <br>
+     <div class="campo">
+        <label class="campo_eti" for="CURP">CURP: </label>
+        <input class="campo_text" type="text" placeholder="CURP" id="curp" size="40">
+    </div>
+    <br>
+    <div class="campo">
+        <label class="campo_eti" for="esc_proced">Escuela de procedencia: </label>
+        <select class="campo_select" id="escuelas">
+        
+      
+        
+        </select>
+        </div>
+        <br>
+     <div class="campo">
+        <label class="campo_eti" for="promedio">Promedio: </label>
+        <input class="campo_text" type="text" placeholder="promedio" id="promedio" size="40">
+        </div>
+            <div class="campo">
+                <label class="campo_eti" for="carrera">Selecciona carrera:</label> 
+                <select class="campo_select" id="carreras">
+                
+     
+                
+                
+                </select>
+                </div>
+                <div class="campo">
+                    <label class="campo_eti" for="telefono">Número de teléfono: </label> 
+                    <input class="campo_text" type="tel" placeholder="Número de teléfono" id="telefono" size="40">
+                </div>
+                <div class="campo">
+                    <label class="campo_eti" for="correo">Correo electronico</label> 
+                    <input class="campo_text" type="email" placeholder="Correo electrónico" id="correo" size="40">
+                </div>
+                <div>
+                    <br>
+                <input type="submit" value="Generar Ficha" class="boton-enviar">
+                
+                </div>
+            </form>
+        </main>
+        <script src="script/main.js"></script>
+    </body>
+    </html>
